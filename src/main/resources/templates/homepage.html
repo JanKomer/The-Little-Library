@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Little Library</title>
+    <link rel="stylesheet" th:href="@{/css/styles2.css}">
+</head>
+<body>
+<nav class="navbar">
+    <div class="navbar-title">
+        <a th:href="@{/}" class="nav-home">The Little Library</a>
+    </div>
+    <div class="navbar-menu">
+        <a th:href="@{/books/add}" class="nav-button">Add Books</a>
+        <a th:href="@{/authors/add}" class="nav-button">Add Authors</a>
+        <a th:href="@{/publishers/add}" class="nav-button">Add Publisher</a>
+        <a th:href="@{/books/availability}" class="nav-button">Check Availability</a>
+    </div>
+</nav>
+
+<main class="content">
+    <!-- Leave this area blank for now -->
+</main>
+</body>
+</html>
